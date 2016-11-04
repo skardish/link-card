@@ -5,3 +5,39 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+body {
+  background-color: #dcd4cd;
+  border: 3px solid #9a816d;
+}
+
+body:hover {
+  background-color: #cabdb2;
+}
+
+h1 {
+  color: #512200;
+}
+
+p {
+  color: #512200;
+}
+
+dl {
+  color: #512200;
+}
+
+dt {
+float: left;
+width: 50%;
+}
+
+.link-card {
+  background-color: #785439;
+  color: #f0eee8;
+  text-align: center;
+}
+
+.link-card:hover {
+  background-color: #512200;
+}
