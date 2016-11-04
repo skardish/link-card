@@ -2,6 +2,7 @@ html {
   box-sizing: border-box;
   background-color: #dcd4cd;
   border: 3px solid #9a816d;
+  line-height: 1.5rem;
 }
 
 *, *::before, *::after {
@@ -30,9 +31,12 @@ dt {
 }
 
 .btn {
+  display: inline-block;
   background-color: #785439;
   color: #f0eee8;
   text-align: center;
+  border-radius: 3px;
+  padding: .4em .75em .5em;
 }
 
 .btn:hover {
