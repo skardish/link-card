@@ -8,7 +8,6 @@ html {
   box-sizing: inherit;
 }
 
-
 .link-card a:hover {
   background-color: #cabdb2;
 }
@@ -26,8 +25,8 @@ dl {
 }
 
 dt {
-float: left;
-width: 50%;
+  float: left;
+  width: 50%;
 }
 
 .btn {
