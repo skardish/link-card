@@ -1,21 +1,19 @@
 html {
   box-sizing: border-box;
+  background-color: #dcd4cd;
+  border: 3px solid #9a816d;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
 
-body {
-  background-color: #dcd4cd;
-  border: 3px solid #9a816d;
-}
 
-body:hover {
+.link-card a:hover {
   background-color: #cabdb2;
 }
 
-h1 {
+h2 {
   color: #512200;
 }
 
@@ -32,12 +30,12 @@ float: left;
 width: 50%;
 }
 
-.link-card {
+.btn {
   background-color: #785439;
   color: #f0eee8;
   text-align: center;
 }
 
-.link-card:hover {
+.btn:hover {
   background-color: #512200;
 }
